@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAFAFE] text-slate-800 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Soft Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7c2f1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #be9de7;
+}
+
+/* Soft ambient glass effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 221, 247, 0.7);
+}
+
+.glass-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -6px rgba(140, 85, 206, 0.12);
+  border-color: rgba(190, 157, 231, 0.9);
+}
+
+/* Breathing animation pulse */
+@keyframes breatheScale {
+  0% { transform: scale(1); box-shadow: 0 0 20px rgba(163, 117, 220, 0.2); }
+  50% { transform: scale(1.35); box-shadow: 0 0 50px rgba(163, 117, 220, 0.5); }
+  100% { transform: scale(1); box-shadow: 0 0 20px rgba(163, 117, 220, 0.2); }
+}
+
+.breathing-circle-active {
+  animation: breatheScale var(--breathe-duration, 16s) infinite ease-in-out;
+}
+

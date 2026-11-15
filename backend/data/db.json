@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "_id": "46ed2ca17212e03b4b243970",
+      "name": "Maruthi Dapke (Student Demo)",
+      "email": "maruthi.demo@mindcare.edu",
+      "password": "$2a$10$4UBaOnjR3verE11vLvAnpu7ppj5qMXikXY9S482UHIoyFJaXNuEAe",
+      "bio": "Computer Science & Engineering student at Dayananda Sagar University focusing on AI for mental health.",
+      "studentDetails": {
+        "name": "Maruthi Dapke",
+        "usn": "ENG24CS0127",
+        "institution": "Dayananda Sagar University",
+        "projectCase": "Case 59 – Mental Wellness App"
+      },
+      "preferences": {
+        "dailyReminder": true,
+        "soundEnabled": true,
+        "privacyMode": false
+      },
+      "createdAt": "2026-11-11T17:28:01.156Z"
+    }
+  ],
+  "moods": [
+    {
+      "_id": "a7296fbe38fd9de8ef7d8623",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Happy",
+      "score": 5,
+      "notes": "Finished the SDLC Prototype module presentation with the team.",
+      "tags": [
+        "Academics",
+        "Social"
+      ],
+      "timestamp": "2026-11-11T17:28:01.156Z"
+    },
+    {
+      "_id": "5566f3617f8c59ccfd495900",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Very Happy",
+      "score": 6,
+      "notes": "Great workout and productive coding session on the wellness app.",
+      "tags": [
+        "Health",
+        "Productivity"
+      ],
+      "timestamp": "2026-11-10T17:28:01.156Z"
+    },
+    {
+      "_id": "095fb828ad6f26a0b28a04d6",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Neutral",
+      "score": 4,
+      "notes": "Quiet mid-week study session in the library.",
+      "tags": [
+        "Study"
+      ],
+      "timestamp": "2026-11-09T17:28:01.156Z"
+    },
+    {
+      "_id": "bb896970080fa259fb01f6fa",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Stressed",
+      "score": 2,
+      "notes": "Exam preparation and upcoming project deadlines.",
+      "tags": [
+        "Academics",
+        "Sleep"
+      ],
+      "timestamp": "2026-11-08T17:28:01.157Z"
+    },
+    {
+      "_id": "80fad6037333aec3d687b1dc",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Happy",
+      "score": 5,
+      "notes": "Relaxing weekend with friends and family.",
+      "tags": [
+        "Family",
+        "Social"
+      ],
+      "timestamp": "2026-11-07T17:28:01.157Z"
+    },
+    {
+      "_id": "a3f8af827717663dc7489af2",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Very Happy",
+      "score": 6,
+      "notes": "Completed the guided box breathing exercise, feeling serene.",
+      "tags": [
+        "Mindfulness"
+      ],
+      "timestamp": "2026-11-06T17:28:01.157Z"
+    },
+    {
+      "_id": "91bda9db359f6a58a01609a8",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Neutral",
+      "score": 4,
+      "notes": "Starting the week with a positive mindset.",
+      "tags": [
+        "General"
+      ],
+      "timestamp": "2026-11-05T17:28:01.157Z"
+    },
+    {
+      "_id": "36cac8c919c0176c3eca8525",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Neutral",
+      "score": 4,
+      "notes": "Quick daily dashboard check-in",
+      "tags": [],
+      "timestamp": "2026-11-15T13:45:48.235Z"
+    },
+    {
+      "_id": "0d3b1473bc813dccf7c707bf",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Anxious",
+      "score": 1,
+      "notes": "",
+      "tags": [
+        "Academics"
+      ],
+      "timestamp": "2026-11-15T00:00:00.000Z"
+    },
+    {
+      "_id": "11f6657ae42aa90ce7b0a5c1",
+      "userId": "46ed2ca17212e03b4b243970",
+      "mood": "Anxious",
+      "score": 1,
+      "notes": "",
+      "tags": [
+        "Academics",
+        "Family",
+        "Sleep",
+        "Social",
+        "Health"
+      ],
+      "timestamp": "2026-11-15T00:00:00.000Z"
+    }
+  ],
+  "journals": [
+    {
+      "_id": "756d9f0264c47551081a9762",
+      "userId": "46ed2ca17212e03b4b243970",
+      "title": "Reflections on Mindful Living and Balance",
+      "content": "Today was a reminder that small moments of calm during a busy university schedule make all the difference. Taking 5 minutes for box breathing helped lower stress before my lab review.",
+      "moodTag": "Happy",
+      "tags": [
+        "Mindfulness",
+        "Academics"
+      ],
+      "createdAt": "2026-11-11T17:28:01.157Z",
+      "updatedAt": "2026-11-11T17:28:01.157Z"
+    },
+    {
+      "_id": "121daba8367805f4d7981c90",
+      "userId": "46ed2ca17212e03b4b243970",
+      "title": "Setting Healthy Boundaries for Technology",
+      "content": "Noticed how constant screen notifications affect my sleep quality. Decided to shut down devices an hour before bed and do light reading instead.",
+      "moodTag": "Neutral",
+      "tags": [
+        "Sleep",
+        "Habits"
+      ],
+      "createdAt": "2026-11-11T17:28:01.158Z",
+      "updatedAt": "2026-11-11T17:28:01.158Z"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "baf470b369c832e9639c40bb",
+      "userId": "46ed2ca17212e03b4b243970",
+      "name": "4-7-8 Relaxing Breath",
+      "type": "breathing",
+      "duration": 240,
+      "completed": true,
+      "completedAt": "2026-11-11T17:28:01.158Z"
+    },
+    {
+      "_id": "9d44b88270dc68ecc0c6a316",
+      "userId": "46ed2ca17212e03b4b243970",
+      "name": "5-4-3-2-1 Sensory Grounding",
+      "type": "grounding",
+      "duration": 300,
+      "completed": true,
+      "completedAt": "2026-11-11T17:28:01.158Z"
+    }
+  ]
+}

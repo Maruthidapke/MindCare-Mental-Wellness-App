@@ -1,0 +1,17 @@
+{
+  "name": "mindcare-case59",
+  "version": "1.0.0",
+  "description": "MindCare - AI-Powered Mental Wellness Web Application (Case 59, Dayananda Sagar University)",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "dev": "node start-dev.js",
+    "build": "cd frontend && npm run build"
+  },
+  "author": "Maruthi Dapke (ENG24CS0127)",
+  "devDependencies": {
+    "puppeteer-core": "^25.17.0"
+  }
+}
